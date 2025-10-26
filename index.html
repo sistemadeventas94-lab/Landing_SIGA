@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGA Pro: La Nueva Era de la Gestión de Almacenes</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuración de la fuente Inter y personalización de Tailwind -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7; /* Fondo muy claro */
+        }
+        /* Configuración personalizada de Tailwind */
+        .premium-shadow {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 5px 15px rgba(0, 0, 0, 0.03);
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px rgba(71, 85, 105, 0.3); /* Sombra elegante al pasar el ratón */
+        }
+    </style>
+</head>
+<body class="text-gray-900">
+
+    <!-- CABECERA FIJA (Minimalista) -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold tracking-tight text-gray-900">SIGA <span class="text-indigo-600">Pro</span></h1>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#solucion" class="text-gray-700 hover:text-indigo-600 transition duration-150">Solución</a>
+                <a href="#pilares" class="text-gray-700 hover:text-indigo-600 transition duration-150">Pilares</a>
+                <a href="#caracteristicas" class="text-gray-700 hover:text-indigo-600 transition duration-150">Tecnología</a>
+                <a href="#contacto" class="text-gray-700 hover:text-indigo-600 transition duration-150">Contacto</a>
+            </nav>
+            <a href="#contacto" class="bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-indigo-700 transition duration-150 cta-button hidden sm:block">
+                Solicitar Demo
+            </a>
+            <!-- Icono de menú para móvil (simulación) -->
+            <div class="md:hidden text-gray-700 cursor-pointer">
+                <!-- Icono de menú de Lucide-react: <Menu /> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECCIÓN 1: HERO - LA REVOLUCIÓN -->
+        <section id="hero" class="pt-24 pb-32 bg-white overflow-hidden">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 text-center">
+                <p class="text-lg font-medium text-indigo-600 uppercase tracking-widest mb-4">La Nueva Era de la Logística</p>
+                <h2 class="text-5xl md:text-7xl font-extrabold leading-tight mb-8">
+                    La <span class="text-indigo-600">Gestión de Almacenes</span>, <br class="hidden sm:block"> Redefinida.
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
+                    Deje de gestionar almacenes. Comience a dirigir un ecosistema de materiales inteligente, preciso y sin pérdidas. El control total de su inventario, ahora en tiempo real y sin esfuerzo.
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#contacto" class="bg-indigo-600 text-white text-lg font-semibold px-10 py-4 rounded-xl cta-button">
+                        Solicitar Demo Exclusiva
+                    </a>
+                    <a href="#solucion" class="bg-white text-gray-900 text-lg font-semibold px-10 py-4 rounded-xl border-2 border-gray-200 hover:border-indigo-600 transition duration-150">
+                        Ver Detalles
+                    </a>
+                </div>
+            </div>
+
+            <!-- MOCKUP DEL PRODUCTO (diseño minimalista de Apple) -->
+            <div class="mt-20 px-6 sm:px-8">
+                <div class="max-w-6xl mx-auto bg-gray-900 rounded-[2rem] p-4 premium-shadow">
+                    <div class="bg-white rounded-3xl h-[60vh] flex items-center justify-center p-8">
+                        <div class="text-center">
+                            <h3 class="text-3xl font-bold mb-2 text-indigo-600">Vista Centralizada</h3>
+                            <p class="text-lg text-gray-600">Panel de control unificado y elegante. Trazabilidad absoluta.</p>
+                            <div class="mt-6 text-gray-400 text-xs">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: LA PREGUNTA INCÓMODA (Steve Jobs Style) -->
+        <section id="solucion" class="py-32 bg-gray-50 border-t border-b border-gray-100">
+            <div class="max-w-5xl mx-auto px-6 sm:px-8 text-center">
+                <h3 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+                    ¿Por qué sigue operando con herramientas de hace una década?
+                </h3>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Las hojas de cálculo y los procesos manuales generan pérdidas, errores y detienen su obra. Le hemos dado una herramienta para la era de la precisión.
+                </p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: LOS 3 PILARES DE LA REVOLUCIÓN -->
+        <section id="pilares" class="py-32">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8">
+                <p class="text-lg font-medium text-center text-gray-500 uppercase tracking-widest mb-16">EL ECOSISTEMA SIGA PRO</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    
+                    <!-- Pilar 1: Precisión y Cero Pérdidas -->
+                    <div class="bg-white p-8 rounded-2xl premium-shadow border border-gray-100 hover:border-indigo-600 transition duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 mb-6 rounded-full bg-indigo-100 text-indigo-600">
+                            <!-- Icono: <ShieldCheck /> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                        </div>
+                        <h4 class="text-2xl font-bold mb-4">Precisión Milimétrica</h4>
+                        <p class="text-gray-600">
+                            **Control total y en tiempo real**. El stock por producto y almacén siempre es real. Los folios automáticos y las firmas digitales garantizan una trazabilidad indiscutible para cada auditoría.
+                        </p>
+                        <p class="mt-4 text-sm font-semibold text-indigo-600">Puntos clave: Inventario en tiempo real (1), Folios y Firmas Digitales (3), Seguridad de Información (18).</p>
+                    </div>
+
+                    <!-- Pilar 2: Automatización Inteligente -->
+                    <div class="bg-white p-8 rounded-2xl premium-shadow border border-gray-100 hover:border-indigo-600 transition duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 mb-6 rounded-full bg-green-100 text-green-600">
+                            <!-- Icono: <Zap /> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        </div>
+                        <h4 class="text-2xl font-bold mb-4">Automatización sin Esfuerzo</h4>
+                        <p class="text-gray-600">
+                            **Escanee, mueva, olvídese**. El escaneo QR registra productos al instante. Las transferencias entre almacenes se descuentan y suman automáticamente. El sistema trabaja por usted.
+                        </p>
+                        <p class="mt-4 text-sm font-semibold text-green-600">Puntos clave: Escaneo (13), Movimientos Automáticos (5), Sincronización (24), Formularios Inteligentes (19).</p>
+                    </div>
+
+                    <!-- Pilar 3: Estrategia Gerencial -->
+                    <div class="bg-white p-8 rounded-2xl premium-shadow border border-gray-100 hover:border-indigo-600 transition duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 mb-6 rounded-full bg-yellow-100 text-yellow-600">
+                            <!-- Icono: <TrendingUp /> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
+                        </div>
+                        <h4 class="text-2xl font-bold mb-4">Inteligencia para la Dirección</h4>
+                        <p class="text-gray-600">
+                            **De datos a decisiones**. Los reportes estratégicos detallan consumo, costos y rotación. Las alertas de stock mínimo le permiten planificar, eliminando las paradas de obra imprevistas.
+                        </p>
+                        <p class="mt-4 text-sm font-semibold text-yellow-600">Puntos clave: Reportes Estratégicos (12), Alertas de Stock Mínimo (7), Balance de Materiales (25), Categorización (15).</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- SECCIÓN 4: CARACTERÍSTICAS CLAVE (Pregunta/Respuesta/Beneficio) -->
+        <section id="caracteristicas" class="py-32 bg-gray-900 text-white">
+            <div class="max-w-6xl mx-auto px-6 sm:px-8">
+                <h3 class="text-4xl font-extrabold mb-16 text-center text-indigo-400">Diseñado para la Productividad.</h3>
+
+                <div class="space-y-16">
+                    
+                    <!-- Característica 1: Multi-Almacén y Accesibilidad -->
+                    <div class="md:grid md:grid-cols-2 md:gap-16 items-center">
+                        <div>
+                            <p class="text-lg text-gray-400 mb-2">GESTIÓN INTEGRADA</p>
+                            <h4 class="text-3xl font-bold mb-4">Maneje todo desde un solo lugar.</h4>
+                            <p class="text-gray-400 text-lg mb-6">
+                                Olvídese de las inconsistencias. SGA Pro le da una **visión unificada** de todos sus depósitos, estén en la misma ciudad o en diferentes provincias.
+                            </p>
+                            <div class="flex items-center text-indigo-400 font-semibold">
+                                <!-- Icono: <Smartphone /> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12" y2="18"></line></svg>
+                                Accesibilidad Total (24/7, Móvil y Web)
+                            </div>
+                        </div>
+                        <div class="mt-8 md:mt-0 p-6 bg-gray-800 rounded-xl">
+                            <p class="text-xl font-semibold mb-3 text-red-400">¿Su problema?</p>
+                            <p class="text-gray-300 mb-4">¿Cuánto tiempo pierde intentando coordinar tres o más almacenes?</p>
+                            <div class="h-px bg-gray-700 my-4"></div>
+                            <p class="text-xl font-semibold mb-3 text-green-400">La solución SGA Pro.</p>
+                            <p class="text-gray-300">Supervise, unifique la información y asigne automáticamente el encargado de cada depósito desde un **solo panel centralizado**.</p>
+                        </div>
+                    </div>
+
+                    <div class="h-px bg-gray-800 max-w-4xl mx-auto"></div>
+
+                    <!-- Característica 2: Préstamos y Resguardos -->
+                    <div class="md:grid md:grid-cols-2 md:gap-16 items-center">
+                        <div class="order-2">
+                            <p class="text-lg text-gray-400 mb-2">RESPONSABILIDAD TOTAL</p>
+                            <h4 class="text-3xl font-bold mb-4">El fin de las herramientas perdidas.</h4>
+                            <p class="text-gray-400 text-lg mb-6">
+                                SGA Pro impone un nivel de responsabilidad que elimina las pérdidas. Cada elemento prestado está vinculado a un responsable con **registro y firma digital**.
+                            </p>
+                            <div class="flex items-center text-indigo-400 font-semibold">
+                                <!-- Icono: <Signature /> -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.74 1.74"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                                Control de Préstamos y Resguardos (4)
+                            </div>
+                        </div>
+                        <div class="order-1 mt-8 md:mt-0 p-6 bg-gray-800 rounded-xl">
+                            <p class="text-xl font-semibold mb-3 text-red-400">¿Su problema?</p>
+                            <p class="text-gray-300 mb-4">¿Cuántas herramientas se pierden por no saber quién las tiene?</p>
+                            <div class="h-px bg-gray-700 my-4"></div>
+                            <p class="text-xl font-semibold mb-3 text-green-400">La solución SGA Pro.</p>
+                            <p class="text-gray-300">Cada préstamo queda **registrado, firmado y vinculado** al responsable. Sin excusas, sin pérdidas. Totalmente auditable.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN 5: CITA IMPACTANTE Y LLAMADA FINAL -->
+        <section id="contacto" class="py-32 bg-white">
+            <div class="max-w-4xl mx-auto px-6 sm:px-8 text-center">
+                <blockquote class="text-3xl md:text-4xl font-light italic leading-relaxed text-gray-700 mb-12">
+                    "La innovación distingue a un líder de un seguidor. SGA Pro no es solo un software; es una <span class="font-bold text-indigo-600">ventaja competitiva</span>."
+                </blockquote>
+                
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-10">
+                    Deje de medir la rentabilidad de su obra por intuición. Agenda una sesión personalizada y descubra la **precisión, rentabilidad y escala** que su gestión merece.
+                </p>
+
+                <a href="mailto:demo@sga.pro" class="bg-indigo-600 text-white text-xl font-bold px-12 py-5 rounded-xl cta-button shadow-2xl shadow-indigo-500/50">
+                    Solicitar mi Sesión Estratégica
+                </a>
+                <p class="mt-4 text-sm text-gray-500">
+                    Sesiones limitadas por semana. Contáctenos hoy.
+                </p>
+            </div>
+        </section>
+
+        <!-- PIE DE PÁGINA -->
+        <footer class="bg-gray-900 py-12 border-t border-gray-800 text-gray-400">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm">&copy; 2025 SGA Pro. Gestión de Almacenes Inteligente.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white transition duration-150 text-sm">Privacidad</a>
+                    <a href="#" class="hover:text-white transition duration-150 text-sm">Términos</a>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
