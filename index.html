@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGA Pro: La Nueva Era de la Gestión de Almacenes</title>
+    <title>SGA Pro: La Nueva Era de la Gestión de Almacenes</title>
     <!-- Carga de Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Configuración de la fuente Inter y personalización de Tailwind -->
@@ -25,13 +25,15 @@
             box-shadow: 0 15px 30px rgba(71, 85, 105, 0.3); /* Sombra elegante al pasar el ratón */
         }
     </style>
+    <!-- Estilos del Chatbot de n8n -->
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
 </head>
 <body class="text-gray-900">
 
     <!-- CABECERA FIJA (Minimalista) -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-6 sm:px-8 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-extrabold tracking-tight text-gray-900">SIGA <span class="text-indigo-600">Pro</span></h1>
+            <h1 class="text-2xl font-extrabold tracking-tight text-gray-900">SGA <span class="text-indigo-600">Pro</span></h1>
             <nav class="hidden md:flex space-x-8 text-sm font-medium">
                 <a href="#solucion" class="text-gray-700 hover:text-indigo-600 transition duration-150">Solución</a>
                 <a href="#pilares" class="text-gray-700 hover:text-indigo-600 transition duration-150">Pilares</a>
@@ -101,7 +103,7 @@
         <!-- SECCIÓN 3: LOS 3 PILARES DE LA REVOLUCIÓN -->
         <section id="pilares" class="py-32">
             <div class="max-w-7xl mx-auto px-6 sm:px-8">
-                <p class="text-lg font-medium text-center text-gray-500 uppercase tracking-widest mb-16">EL ECOSISTEMA SIGA PRO</p>
+                <p class="text-lg font-medium text-center text-gray-500 uppercase tracking-widest mb-16">EL ECOSISTEMA SGA PRO</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                     
@@ -238,6 +240,15 @@
                 </div>
             </div>
         </footer>
+
+    <!-- CÓDIGO EMBEBIDO DEL CHATBOT N8N -->
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+        createChat({
+            webhookUrl: 'https://miprimerautomatizacion.app.n8n.cloud/webhook/d5c9c5cc-b580-40be-b8e4-77708e7372a4/chat'
+        });
+    </script>
 
 </body>
 </html>
